@@ -14,12 +14,13 @@ import Step3 from "./components/onboarding/Step3";
 import Step4 from "./components/onboarding/Step4";
 
 import Step5 from "./components/onboarding/Step5";
+import Step6 from "./components/onboarding/Step6";
 
 function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" element={<Login />} /> */}
+        <Route path="/" element={<Login />} />
         {/* <Route path="/" element={<ResetPassword />} /> */}
 
         {/* <Route path="/" element={<ResetPasswordForm />} /> */}
@@ -35,17 +36,9 @@ function App() {
 
         {/* <Route path="/" element={<Step4 />} /> */}
 
-        <Route path="/" element={<Step5 />} />
-        {/* <Route path="/onboarding" element={<Onboarding />}>
-          <Route path="step1" element={<Step1 />} />
-          <Route path="step2" element={<Step2 />} />
-          <Route path="step3" element={<Step3 />} />
-          <Route path="step4" element={<Step4 />} />
-          <Route path="step5" element={<Step5 />} />
-          <Route path="step6" element={<Step6 />} />
-        </Route> */}
-        <Route path="/dashboard" element={<Dashboard />} />
-        {/* Add more routes as needed */}
+        {/* <Route path="/" element={<Step6 />} /> */}
+
+        {/* <Route path="/" element={<Dashboard />} /> */}
       </Routes>
     </Router>
   );

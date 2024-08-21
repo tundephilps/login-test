@@ -2,14 +2,12 @@ import React from "react";
 //import { Link } from "react-router-dom";
 
 import Logo from "../../assets/images/logo/logo.png";
-import { FaBell } from "react-icons/fa";
-import { CiCircleQuestion } from "react-icons/ci";
 import { CiBellOn } from "react-icons/ci";
 import AuthImage2 from "../../assets/images/backgrounds/AuthImage2.png";
 
 const ResetPasswordLink = () => {
   return (
-    <div className="grid lg:grid-cols-6 lg:p-16 p-0 lg:gap-12 gap-0 ">
+    <div className="grid lg:grid-cols-6 lg:p-16 p-0 lg:gap-12 gap-0 lg:h-full h-[100vh]  ">
       <div className="col-span-2 bg-[#f4f4f4] px-12 mx-auto pt-32 rounded-[50px] border border-[#cbceda] h-full">
         <img src={Logo} alt="Logo" />
         <div className="w-full text-gray-600 pt-16 pb-12">
@@ -49,7 +47,7 @@ const ResetPasswordLink = () => {
         <h1 className="absolute  text-white font-extrabold text-2xl m-auto inset-0 top-[50%] left-[33%]">
           Its okay. We all forget our passowrds
         </h1>
-        <img src={AuthImage2} className="h-full w-full" />
+        <img src={AuthImage2} className="h-full w-full" alt="" />
       </div>
     </div>
   );

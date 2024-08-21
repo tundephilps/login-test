@@ -2,11 +2,7 @@ import React from "react";
 //import { Link } from "react-router-dom";
 
 import Logo from "../../assets/images/logo/logo.png";
-import { FaBell } from "react-icons/fa";
-import { CiCircleQuestion } from "react-icons/ci";
-import { CiBellOn } from "react-icons/ci";
 import AuthImage2 from "../../assets/images/backgrounds/Step5.png";
-import { Link } from "react-router-dom";
 
 const Step5 = () => {
   return (
@@ -107,7 +103,7 @@ const Step5 = () => {
         <h1 className="absolute  text-white font-extrabold text-2xl m-auto inset-0 top-[50%] left-[33%]">
           Keeping your data safe... and ours too.
         </h1>
-        <img src={AuthImage2} className="h-full w-full" />
+        <img src={AuthImage2} className="h-full w-full" alt="" />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import AuthImage from "../../assets/images/backgrounds/Step3.png";
 
 import Logo from "../../assets/images/logo/logo.png";
@@ -24,7 +24,7 @@ const Step3 = () => {
   const selectedPlan = plans[selectedOption];
 
   return (
-    <div className="grid lg:grid-cols-6 lg:px-16 lg:py-6 p-0 lg:gap-12 gap-0 ">
+    <div className="grid lg:grid-cols-6 lg:px-16 lg:py-6 p-0 lg:gap-12 gap-0 lg:h-full h-[100vh] ">
       <div className="col-span-4 bg-[#f4f4f4] px-12  pt-8 rounded-[50px] border border-[#cbceda] h-full">
         <img src={Logo} alt="Logo" className="pt-12" />
         <div className="text-start">
@@ -300,7 +300,7 @@ const Step3 = () => {
         <h1 className="absolute  text-white font-extrabold text-2xl m-auto inset-0 top-[50%] left-[13%]">
           Cost effective AI processing
         </h1>
-        <img src={AuthImage} className="h-[95vh]" />
+        <img src={AuthImage} className="h-[95vh]" alt="" />
       </div>
     </div>
   );
